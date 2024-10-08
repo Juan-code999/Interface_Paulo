@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo1", "Exemplo1\Exemplo1.csproj", "{14BDBADC-533C-45B2-AF51-EC77AB0A4B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo2", "Exemplo2\Exemplo2.csproj", "{9E13BCA0-1224-442B-BEED-736C0DE87FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo3", "eXEMPLO3\Exemplo3.csproj", "{D5CEC5E5-29C1-4C7C-857B-6FAE634BD595}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14BDBADC-533C-45B2-AF51-EC77AB0A4B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BDBADC-533C-45B2-AF51-EC77AB0A4B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BDBADC-533C-45B2-AF51-EC77AB0A4B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BDBADC-533C-45B2-AF51-EC77AB0A4B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E13BCA0-1224-442B-BEED-736C0DE87FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E13BCA0-1224-442B-BEED-736C0DE87FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E13BCA0-1224-442B-BEED-736C0DE87FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E13BCA0-1224-442B-BEED-736C0DE87FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CEC5E5-29C1-4C7C-857B-6FAE634BD595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CEC5E5-29C1-4C7C-857B-6FAE634BD595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CEC5E5-29C1-4C7C-857B-6FAE634BD595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CEC5E5-29C1-4C7C-857B-6FAE634BD595}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ABE27D6-975B-4FAF-9B46-E8B698CB7600}
+	EndGlobalSection
+EndGlobal
