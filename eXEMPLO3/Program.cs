@@ -7,8 +7,9 @@ Console.WriteLine("Selecione a forma de pagamento:");
 Console.WriteLine("1 -Pix");
 Console.WriteLine("2 -Dinheiro");
 Console.WriteLine("3 -Cartao");
+Console.WriteLine("4 -Cheque");
 int f = int.Parse(Console.ReadLine());
-if (f < 0 || f > 3)
+if (f < 0 || f > 4)
 {
     throw new Exception("Opção inválida");
 }
@@ -20,8 +21,11 @@ if (f < 0 || f > 3)
         case 2:
             formaPagamento = new Dinheiro();
             break;
-    default:
+        case 3:
             formaPagamento = new Cartao();
+        break;
+    default:
+            formaPagamento = new cheque();
             break;
     }
 formaPagamento.CalculaValorPagamento(200);
