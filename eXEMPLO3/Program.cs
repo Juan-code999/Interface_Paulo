@@ -28,4 +28,5 @@ if (f < 0 || f > 4)
             formaPagamento = new cheque();
             break;
     }
-formaPagamento.CalculaValorPagamento(200);
+GerenciadorPagamento ger =new GerenciadorPagamento();
+ger.ProcesarPagamento(formaPagamento, 200);
